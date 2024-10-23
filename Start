@@ -1,0 +1,106 @@
+
+# store the price (in dollars) of the mobike in variable
+#price = 900
+#print the value saved in the variable 'price'
+#print ('The price of the mobile is $',price,sep="")
+#brand = 'Apple'
+#print('The brand of the mobile phone is',brand) 
+# price_after_discount = price - discount
+# print("The price after discount is $",price_after_discount)
+# x = bill // price
+# print('The customer buys',x,'Apple phones')
+# print('The discount price of the iphone is $ ' + str(price_after_discount))
+# discount_price = price * 0.045
+# print(type(discount_price))
+# brand_list = ["Apple", "Samsung", "LG", "Apple"]
+# print(brand_list)
+# ram_list = [4, 12, 18, 8]
+# storage_list = [128, 128, 64, 128]
+# price_list = [900, 899, 600, 1000]
+# print(len(brand_list))
+# print(min(price_list))
+# print(max(storage_list))
+# print(ram_list[2])
+# print(price_list[0 : 3])
+# print(brand_list[-1])
+# print(brand_list.pop())
+# print(brand_list)
+# brand_list.append("Motorola")
+# print(brand_list)
+# brand_list[3] = "Apple"
+# storage = (32, 64, 128, 256)
+# print(storage)
+# print(type(storage))
+# print(storage[1])
+# attributes = {
+#     "Brand" : "Apple",
+#     "RAM (in GB)" : 4,
+#     "Storage (in GB)" : 128,
+#     "Price (in $)" : 800
+# }
+# print(attributes)
+# print(type(attributes))
+# print(attributes['Price (in $)'])
+# attributes['Price (in $)'] = 900
+# print(attributes)
+# products = {
+#     'Brand' : brand_list,
+#     'RAM (in GB)' : ram_list,
+#     'Storage (in GB)' : storage_list,
+#     'Price (in $)' : price_list
+# }
+# print(products)
+# keys = products.keys()
+# print('The keys of the dictionary are :\n', keys)
+# values = products.values()
+# print('The values of the dictionary are :\n', values)
+# print(products['RAM (in GB)'][1])
+# budget = int(input('Enter your budget(in dollars): '))
+# if price <= budget:
+#     print('Congratulations! Ypou can buy the iphone')
+# else:
+#     print('Sorry!')
+# Memory = int(input('Enter the memory: '))
+# if Memory == 32:
+#     print('The price is $400')
+# elif Memory == 64:
+#     print('The price is $600')
+# elif Memory == 128:
+#     print('The price is $800')
+# else:
+#     print('please enter a valid memory requirement')
+# print(range(6))
+# print(list(range(6)))
+# print(list(range(2, 6)))
+# print(list(range(6, 14, 2)))
+# price = 900
+# for i in range(5, 21, 5):
+#     discount = price * (i / 100)
+#     discount_price = price - discount
+#     print('The price after providing ', i, ' percent discount is $', discount_price, sep = '')
+# n = 5
+# while n <= 20:
+#     discount = price * (n / 100)
+#     discounted_price = price - discount
+#     print('The price after providing ', n, ' percent discount is $', discounted_price, sep = '')    
+#     n += 5
+import numpy
+arr_str = ['Mercedes', 'BMW', 'Audi', 'Ferrari', 'Tesla']
+arr_num = [5, 4, 6, 7, 3]
+np_arr_str = np.array(arr_str)
+np_arr_num = np.array(arr_num)
+print(np_arr_str)
+print(np_arr_num)
+matrix = np.array([[1, 2, 1], [2, 3, 4], [1, 8, 9]])
+print(matrix)
+arr2 = np.arange(start = 0, stop = 10)
+print(arr2)
+arr3 = np.arange(start = 0, stop = 20, step = 5)
+matrix2 = np.linspace(0, 5)
+matrix3 = np.linspace(10, 20, 10)
+matrix4 = np.zeros([3, 5])
+matrix5 = np.ones([3, 5])
+matrix6 = np.eye(5)
+
+
+
